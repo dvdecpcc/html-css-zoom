@@ -121,11 +121,13 @@ footer i {
     font-size: 15px;
     padding-top: 25px;
 }
+.right-side:hover {
+    background-color: red;
+}
 #end-meeting {
     color: red;
 }
 
 #end-meeting:hover {
-    background-color: red;
     color: white;
 }
