@@ -67,16 +67,13 @@ main {
     color: white;
     background-color: rgb(168, 164, 164);
     opacity: 0.6;
-    padding-top: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 5px;
+    padding: 2px 4px 4px;
     bottom: 0;
     left: 0;
 }
 
 .user span i {
-    padding-right: 5px;
+    padding-right: 4px;
 }
 
 
@@ -121,8 +118,14 @@ footer i {
     width: 7%;
     height: 60px;
     background-color: grey;
-    color: red;
     font-size: 15px;
     padding-top: 25px;
 }
+#end-meeting {
+    color: red;
+}
 
+#end-meeting:hover {
+    background-color: red;
+    color: white;
+}
